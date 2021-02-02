@@ -18,7 +18,7 @@ main   {
     text-align: left; 
     line-height: 50px; 
     border: 3px solid black; 
-    width: 50%; 
+    width: 80%; 
     background-color: black; 
     background-color: rgba(255,255,255,0.5);
     position: absolute; 
@@ -30,10 +30,13 @@ main   {
     position: absolute;  
 } 
 
-
+main p { 
+    color: black; 
+    font-size: 30px; 
+}
 
 .container-one { 
-    background-color: rgba(122,39,0);  
+    background-color:#333;  
     height: 75px; 
     width: 100%; 
     text-align: center; 
@@ -42,10 +45,19 @@ main   {
 
 .container-one h1 { 
     font-size: 75px; 
-    color: rgb(10, 65, 110); 
+    color: rgba(122,39,0);
     font-family: 'Open Sans Condensed', sans-serif;
 
 }
+
+.container-one h2 { 
+    font-size: 75px; 
+    color: rgba(122,39,0); 
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+
 
 
 /* Controls the links on contacts page not on navbar */
@@ -223,7 +235,7 @@ input[type=text], select, textarea{
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%); 
     position: absolute;  
-    width: 100%; 
+    width: 80%; 
   }
   
   /* Floating column for labels: 25% width */
@@ -262,6 +274,11 @@ input[type=text], select, textarea{
         background:#999;
      }
 
+    article {
+        -webkit-column-count: 1;
+           -moz-column-count: 1;
+                column-count: 1;
+      }
 
   }
   
