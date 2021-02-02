@@ -144,22 +144,7 @@ header li a:hover {
     text-decoration: none; 
   }
   
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
 
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -180,13 +165,13 @@ header nav ul li {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #111;
+    color:  rgba(122,39,0);
   }
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: rgba(122,39,0);
     color: white;
   }
   
@@ -194,3 +179,92 @@ header nav ul li {
   .topnav .icon {
     display: none;
   }
+
+
+
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color:  rgba(122,39,0);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    font-size: 25px; 
+    text-align: left; 
+    line-height: 50px; 
+    border: 3px solid black; 
+    background-color: rgba(255,255,255,0.5);
+    position: absolute; 
+    left: 50%;
+    top: 25%; 
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); 
+    position: absolute;  
+    width: 100%; 
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    #footer {
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        height:30px;
+        width:100%;
+        background:#999;
+     }
+
+
+  }
+  
+
+  
+  
