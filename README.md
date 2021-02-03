@@ -4,11 +4,11 @@ For this assignment we were tasked with building a portfolio website, containing
 # Technology used 
   * HTML 
   * CSS 
-  
- # Url 
-  * Github Repository: 
-  * Deployed application: 
   * Bootstrap 
+ # Url 
+  * Github Repository: https://github.com/JuanBoza
+  * Deployed application: 
+ 
   
  # Screenshots
  ![homework two 1 ](https://user-images.githubusercontent.com/70541910/106702519-ba079380-65a5-11eb-96e8-986520ca4fe4.png)
