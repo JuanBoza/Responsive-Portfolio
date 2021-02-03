@@ -7,7 +7,7 @@ For this assignment we were tasked with building a portfolio website, containing
   * Bootstrap 
  # Url 
   * Github Repository: https://github.com/JuanBoza
-  * Deployed application: https://juanboza.github.io/Responsive-Portfolio/index.html
+  * Deployed application: https://juanboza.github.io/Responsive-Portfolio
  
   
  # Screenshots
